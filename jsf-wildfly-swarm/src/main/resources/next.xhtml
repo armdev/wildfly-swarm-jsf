@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+<body>
+
+<ui:composition template="/WEB-INF/template.xhtml">
+    <ui:define name="content">
+        <h:link outcome="index" value="To home page"/>
+        <br/>
+        <h:outputText value="#{message.username}"/>
+        <br/>
+        <p>
+            The Kingdom of Armenia at its greatest extent under Tigranes the Great, who reigned between 95 and 66 BC.
+        </p>
+         <br/>
+        <h:graphicImage   value="/resources/armenia.png"/>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>
